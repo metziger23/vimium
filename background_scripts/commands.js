@@ -419,7 +419,9 @@ const defaultKeyMappings = {
   "<c-e>": "scrollDown",
   "<c-y>": "scrollUp",
   "d": "scrollPageDown",
+  "<c-d>": "scrollPageDown",
   "u": "scrollPageUp",
+  "<c-u>": "scrollPageUp",
   "r": "reload",
   "R": "reload hard",
   "yy": "copyCurrentUrl",
@@ -439,6 +441,7 @@ const defaultKeyMappings = {
   // Link hints
   "f": "LinkHints.activateMode",
   "F": "LinkHints.activateModeToOpenInNewTab",
+  "<backspace>": "LinkHints.activateModeToOpenInNewTab",
   "<a-f>": "LinkHints.activateModeWithQueue",
   "yf": "LinkHints.activateModeToCopyLinkUrl",
 
@@ -482,6 +485,9 @@ const defaultKeyMappings = {
   "zi": "zoomIn",
   "zo": "zoomOut",
   "z0": "zoomReset",
+  "gxx": "closeOtherTabs",
+  "gxn": "closeTabsOnLeft",
+  "gxo": "closeTabsOnRight",
 
   // Marks
   "m": "Marks.activateCreateMode",
