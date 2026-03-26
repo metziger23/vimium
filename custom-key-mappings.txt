@@ -1,0 +1,14 @@
+# Insert your preferred key mappings here.
+map <c-d> scrollPageDown
+map <c-u> scrollPageUp
+
+map gxx closeOtherTabs
+map gxn closeTabsOnLeft
+map gxo closeTabsOnRight
+
+map <backspace> LinkHints.activateModeToOpenInNewTab
+
+# Characters used for link hints
+# rastneifwchogm
+
+# also set "Ignore keyboard layout" to true
